@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="322"/>
+    <region id="Feats">
+        <node id="root">
+            <children>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Alert"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Alert"/>
+                    <attribute id="UUID" type="guid" value="f57bd72c-be64-4855-9e3a-bb7d7665e656"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Lucky"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Lucky;Lucky_Unlock"/>
+                    <attribute id="UUID" type="guid" value="d84c7f36-8c5b-4b17-b95a-e1da725f9004"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="MagicInitiateCleric"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MagicInitiate_Cleric"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,2,0,MIClericCantrips,Wisdom,,AlwaysPrepared,,114e7aee-d1d4-4371-8d90-8a2080592faf);SelectSpells(269d1a3b-eed8-4131-8901-a562238f5289,1,0,MIClericSpells,Wisdom,None,AlwaysPrepared,UntilRest,114e7aee-d1d4-4371-8d90-8a2080592faf)"/>
+                    <attribute id="UUID" type="guid" value="28e5fed3-bd41-4b74-ab48-b8e824ad3443"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="MagicInitiateDruid"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MagicInitiate_Druid"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,2,0,MIDruidCantrips,Wisdom,,AlwaysPrepared,,457d0a6e-9da8-4f95-a225-18382f0e94b5);SelectSpells(2cd54137-2fe5-4100-aad3-df64735a8145,1,0,MIDruidSpells,Wisdom,None,AlwaysPrepared,UntilRest,457d0a6e-9da8-4f95-a225-18382f0e94b5)"/>
+                    <attribute id="UUID" type="guid" value="1e1a9a4d-38f4-4a05-b080-d32c2b872250"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="MagicInitiateWizard"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MagicInitiate_Wizard"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,MIWizardCantrips,Intelligence,,AlwaysPrepared,,a865965f-501b-46e9-9eaa-7748e8c04d09);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,0,MIWizardSpells,Intelligence,None,AlwaysPrepared,UntilRest,a865965f-501b-46e9-9eaa-7748e8c04d09)"/>
+                    <attribute id="UUID" type="guid" value="26c6990b-d9f0-41a2-8108-209789fafc18"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Performer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Performer"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(98acdfcb-3c74-4e1a-8707-5d6da747d430,1,1,PerformerASI)"/>
+                    <attribute id="UUID" type="guid" value="60dfd716-3ba8-4611-90ee-018b59775b1d"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="SavageAttacker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SavageAttacker"/>
+                    <attribute id="UUID" type="guid" value="e061a323-3430-4cff-88d3-5eae7a1779a4"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Skilled"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Skilled"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,3,SkilledSkills)"/>
+                    <attribute id="UUID" type="guid" value="019564a0-f136-4139-94ea-040f94bbaf19"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="TavernBrawler"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TavernBrawler"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(859878b3-9c3a-450d-a190-bc90707c9671,1,1,LightlyArmoredASI)"/>
+                    <attribute id="UUID" type="guid" value="be0889d2-f9aa-472d-b942-592bff0f1ef3"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Tough"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Tough"/>
+                    <attribute id="UUID" type="guid" value="e8d1e7f6-d841-48ff-a83c-f1aaa16597ff"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
